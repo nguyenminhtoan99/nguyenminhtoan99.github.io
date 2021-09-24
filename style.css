@@ -1,6 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
+/* section-wedding */
+.wedding-announcement {
+  background: url(images/announcement-bg.png) center center;
+  position: relative;
+  top: -10px;
+}
+.section-padding {
+  padding: 130px 0;
+}
+.section-heading h2 {
+  background: url(images/heading-bg.png) no-repeat center 60px;
+  font-size: 45px;
+  color: #2a1d22;
+  line-height: 38px;
+  margin: 0;
+  padding-bottom: 55px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+}
+.section-heading p {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 35px;
+  margin: 0 0 60px;
+}
+.wedding-announcement .left-col {
+  background: url(images/left-dot.png) no-repeat 20px 50%;
+  position: relative;
+}
+.wedding-announcement .right-col {
+  background: url(images/right-dot.png) no-repeat 99% 49%;
+  position: relative;
+}
+.wedding-announcement .frame {
+  position: relative;
+  overflow: hidden;
+}
+.wedding-announcement .frame img:first-child {
+  position: relative;
+  z-index: 5;
+}
+.wedding-announcement .frame img:last-child {
+  width: 95%;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.wedding-announcement .content h4 {
+  background: url(../images/heading-heart.png) no-repeat center 35px;
+  font-family: "Roboto Slab", serif;
+  margin: 55px 0 0;
+  padding-bottom: 50px;
+  font-family: "Lobster", cursive;
+}
+
+/* HERO */
 .hero-inner-content {
   height: 100vh;
   display: flex;
